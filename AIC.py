@@ -9,7 +9,7 @@ from sklearn import preprocessing
 st.title("Previsão de Intenção de Compras Online")
 
 # Carregar o dataset
-shoppers_intention = pd.read_csv('./Machine-Learning-II-ProjetoFinal/online_shoppers_intention.csv', sep=';', decimal=',')
+shoppers_intention = pd.read_csv('./Modelos_Produtivos_I/online_shoppers_intention.csv', sep=';', decimal=',')
 
 # Limpeza dos dados
 shoppers_intention.drop_duplicates(inplace=True)
